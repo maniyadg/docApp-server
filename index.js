@@ -17,7 +17,7 @@ app.use(cookieParser());
 app.use(moragan("dev"));
 app.use(express.json());
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://63fdbfefaa79306f2b163e5b--gleaming-pithivier-90f9a5.netlify.app/',
   credentials: true
 }));
 
